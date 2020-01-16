@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Shark CSS</title>
+  <link rel="stylesheet" href="./shark.css">
+  <script src="./main.js"></script>
+
+</head>
+<body>
+<div class="b-11 block flex px-8 py-2">
+  <div class="logo block">
+    <logo-component></logo-component>
+    <h1 class="c-10 fw-6 ls-1 tt-u">Shark.</h1>
+    <h3 class="c-10 fw-2 ls-1">A Killer CSS Boilerplate.</h3>
+  </div>
+</div>
+
+<div class="grid grid-2 s-col-w-2 p-8">
+    <div class="col-1">
+        <h2 class="c-1 tt-u ls-2 mb-3 pt-4">Getting Started</h2>
+          <ul class="c-11">
+            <li class="py-2">
+                <a href="#intro" class="c-5 ch-2 fd-n tr_1">What is Shark</a>
+            </li>
+            <li class="py-2">
+              <a href="#setup" class="c-5 ch-2 fd-n tr_1">Setup</a>
+            </li>
+            <li class="py-2">
+              <a href="#usage" class="c-5 ch-2 fd-n tr_1">Usage</a>
+            </li>
+          </ul>
+          <h2 class="c-1 tt-u ls-2 mb-3 pt-4">Classes</h2>
+          <ul class="c-11">
+            <li class="py-2">
+                <a href="#reset" class="c-5 ch-2 fd-n tr_1">Reset</a>
+            </li>
+            <li class="py-2">
+                <a href="#breakpoints" class="c-5 ch-2 fd-n tr_1">Breakpoints</a>
+            </li>
+            <li class="py-2">
+                <a href="#blocks" class="c-5 ch-2 fd-n tr_1">Blocks</a>
+            </li>
+            <li class="py-2">
+                <a href="#grids" class="c-5 ch-2 fd-n tr_1">Grids</a>
+            </li>
+            <li class="py-2">
+                <a href="#grid-gap" class="c-5 ch-2 fd-n tr_1">Grid Gap</a>
+            </li>
+            <li class="py-2">
+              <a href="#column-widths" class="c-5 ch-2 fd-n tr_1">Column Widths</a>
+            </li>
+            <li class="py-2">
+              <a href="#column-width-breakpoints" class="c-5 ch-2 fd-n tr_1">Column Widths Breakpoints</a>
+            </li>
+            <li class="py-2">
+              <a href="#grid-order" class="c-5 ch-2 fd-n tr_1">Grid Order</a>
+            </li>
+            <li class="py-2">
+              <a href="#color-palette" class="c-5 ch-2 fd-n tr_1">Color Palette</a>
+            </li>
+            <li class="py-2">
+              <a href="#colors" class="c-5 ch-2 fd-n tr_1">Colors</a>
+            </li>
+            <li class="py-2">
+              <a href="#background" class="c-5 ch-2 fd-n tr_1">Background</a>
+            </li>
+            <li class="py-2">
+              <a href="#background-size" class="c-5 ch-2 fd-n tr_1">Background Size</a>
+            </li>
+            <li class="py-2">
+              <a href="#background-position" class="c-5 ch-2 fd-n tr_1">Background Position</a>
+            </li>
+            <li class="py-2">
+              <a href="#background-attachment" class="c-5 ch-2 fd-n tr_1">Background Attachment</a>
+            </li>
+            <li class="py-2">
+              <a href="#border" class="c-5 ch-2 fd-n tr_1">Border</a>
+            </li>
+            <li class="py-2">
+              <a href="#border-color" class="c-5 ch-2 fd-n tr_1">Border Color</a>
+            </li>
+            <li class="py-2">
+              <a href="#fill" class="c-5 ch-2 fd-n tr_1">Fill</a>
+           </li>
+            <li class="py-2">
+                <a href="#flex" class="c-5 ch-2 fd-n tr_1">Flex</a>
+            </li>
+            <li class="py-2">
+                <a href="#float" class="c-5 ch-2 fd-n tr_1">Float</a>
+            </li>
+            <li class="py-2">
+              <a href="#margin" class="c-5 ch-2 fd-n tr_1">Margin</a>
+            </li>
+            <li class="py-2">
+              <a href="#padding" class="c-5 ch-2 fd-n tr_1">Padding</a>
+            </li>
+            <li class="py-2">
+                <a href="#position" class="c-5 ch-2 fd-n tr_1">Position</a>
+            </li>
+            <li class="py-2">
+              <a href="#font-size" class="c-5 ch-2 fd-n tr_1">Font Size</a>
+            </li>
+            <li class="py-2">
+              <a href="#font-weight" class="c-5 ch-2 fd-n tr_1">Font Weight</a>
+            </li>
+            <li class="py-2">
+              <a href="#font-decoration" class="c-5 ch-2 fd-n tr_1">Font Decoration</a>
+            </li>
+            <li class="py-2">
+              <a href="#text-align" class="c-5 ch-2 fd-n tr_1">Text Align</a>
+            </li>
+            <li class="py-2">
+              <a href="#text-transform" class="c-5 ch-2 fd-n tr_1">Text Transform</a>
+            </li>
+            <li class="py-2">
+              <a href="#letter-spacing" class="c-5 ch-2 fd-n tr_1">Letter Spacing</a>
+            </li>
+            <li class="py-2">
+              <a href="#tables" class="c-5 ch-2 fd-n tr_1">Tables</a>
+            </li>
+            <li class="py-2">
+              <a href="#transitions" class="c-5 ch-2 fd-n tr_1">Transitions</a>
+            </li>
+
+            
+
+            
+          </ul>
+    </div>
+    <div class="col-2">
+
+      <!--intro-->
+      <div class="block" id="intro">
+
+        <div class="block mb-4">
+          <h2 class="c-11 tt-u ls-2 pt-4">What is Shark CSS</h2>
+        </div>
+
+        <div class="block">
+          <p class="tp-1"><b>Shark CSS</b> is a highly opinionated predefined set of CSS classes, Resets and Common Components. Built to be easily extendable and to take full advantage of <b>CSS Variables, Flexbox and CSS Grid.</b></p>
+          <p class="tp-1">Weighing in at <b>under 20k</b> uncompressed and <b>under 3k</b> GZipped, <b>Shark CSS</b> is without a doubt faster, lighter and more efficient when compared to most other CSS Frameworks. <b>Shark CSS</b> can easily be used as a full custom framework tailored to suit your project or brand.</p>
+        </div>
+
+        <div class="block mb-8">
+          <table class="tbl-1  mb-8">
+            <tr>
+              <td>
+                Framework
+              </td>
+              <td>
+                Version
+              </td>
+              <td>
+                Original - kb
+              </td>
+              <td>
+                GZipped - kb
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Shark CSS
+              </td>
+              <td>
+                V 1.0.0
+              </td>
+              <td>
+                17.8kb
+              </td>
+              <td>
+                2.7kb
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Foundation
+              </td>
+              <td>
+                V -.-.-
+              </td>
+              <td>
+                154.1kb
+              </td>
+              <td>
+                15.9kb
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Materialize
+              </td>
+              <td>
+                V -.-.-
+              </td>
+              <td>
+                175.0kb
+              </td>
+              <td>
+                21.1kb
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Bootstrap
+              </td>
+              <td>
+                V 4.0.0
+              </td>
+              <td>
+                187.8kb
+              </td>
+              <td>
+                22.7kb
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Tailwind
+              </td>
+              <td>
+                V -.-.-
+              </td>
+              <td>
+                783.5kb
+              </td>
+              <td>
+                78.0kb
+              </td>
+            </tr>
+          </table>
+        </div>
+
+      </div>
+      <!--intro-->
+
+      <!--Setup-->
+      <div class="block mb-4 bd-t-1 bc-c-11" id="setup">
+        <h2 class="c-11 tt-u ls-2 pt-4">Setup</h2>
+      </div>
+
+      <div class="block b-7 c-3 mb-4 p-4">
+        <p>To get setup simply <a href="./shark.css" target="_blank">download</a> <b>Shark CSS</b> and add it to your project using a script tag.</b></p>
+        <pre>
+&lt;script src=&quot;./shark.css&quot;&gt;&lt;/script&gt;
+        </pre>
+      </div>
+      <!--Setup-->
+
+      <!--Usage-->
+      <div class="block mb-4 bd-t-1 bc-c-11" id="usage">
+        <h2 class="c-11 tt-u ls-2 pt-4">Basic Usage</h2>
+      </div>
+
+      <div class="block">
+        <p><b>Shark CSS</b> runs on a Blocks, Grids and Columns  system and does away with BEM CSS in favour of more lightweight naming conventions.</b></p>
+        <p>See below a simple example of a common layout.</p>
+      </div>
+      <!--Usage-->
+
+      <!--Example-->
+        <div class="block b-1 c-10 mb-4 p-4 flex">
+            header
+        </div>
+        <div class="block mb-4">
+            <div class="grid grid-3 s-col-w-2 m-col-w-3 l-col-w-4 xl-col-w-2 gg-4">
+                <div class="col-1 s-col-2 b-3 c-10 p-4 flex">column 1</div>
+                <div class="col-2 s-col-1 b-5 c-10 p-4 flex">column 2</div>
+                <div class="col-3 s-col-3 b-3 c-10 p-4 flex">column 3</div>
+            </div>
+        </div>
+      <!--Example-->
+
+      <!--Example Code-->
+      <div class="block c-1 py-4">
+        HTML Code
+      </div>
+      <div class="block b-7 c-3 p-4">
+        <pre>
+&lt;div class=&quot;block b-1 c-10 mb-4 p-4 flex&quot;&gt;
+  header
+&lt;/div&gt;
+&lt;div class=&quot;block mb-4&quot;&gt;
+  &lt;div class=&quot;grid grid-3 s-col-w-2 m-col-w-3 l-col-w-4 xl-col-w-2 gg-4&quot;&gt;
+    &lt;div class=&quot;col-1 s-col-2 b-3 c-10 p-4 flex&quot;&gt;column 1&lt;/div&gt;
+    &lt;div class=&quot;col-2 s-col-1 b-5 c-10 p-4 flex&quot;&gt;column 2&lt;/div&gt;
+    &lt;div class=&quot;col-3 s-col-3 b-3 c-10 p-4 flex&quot;&gt;column 3&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+      </pre>
+      </div>
+      <!--Example Code-->
+
+      <!--Reset-->
+      <div class="block mt-8 mb-4 bd-t-1 bc-c-11" id="reset">
+        <h2 class="c-11 tt-u ls-2 pt-4">Reset</h2>
+      </div>
+
+      <!--Reset Code-->
+      <div class="block c-1 py-4">
+        CSS Code
+      </div>
+      <div class="block b-7 c-3 p-4">
+        <pre>
+html{font-family: 'Montserrat', sans-serif; font-size: 16px; word-spacing: 1px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; -moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; box-sizing: border-box;}
+*,
+*:before,
+*:after{box-sizing: border-box; margin: 0; padding:0;}
+div{display: block;}
+a:focus,
+button:focus,
+input:focus,
+textarea:focus,
+:focus{outline: none;}
+pre {white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word;}
+body{background: var(--color-10);color: var(--color-1);}
+img{display: block; height: auto; width: 100%;}
+h1,h2,h3,h4,h5,h6,ul,ol,p{margin: 0; padding: 0; margin-block-start: 0;margin-block-end: 0;margin-inline-start: 0;margin-inline-end: 0;}
+p{color: var(--color-1);font-size: 1em;font-weight: 400;line-height: 1.5em;margin: 0 0 1em 0;}
+p b{font-weight: 600;}
+p a{color: var(--color-11); transition: color ease 0.3s;}
+p a:hover{color: var(--color-1);}
+table{border-collapse: collapse; color: var(--color-1); display: table; text-align: left; width: auto;}
+tr {width: 100%;}
+tr td{border-left: 1px solid var(--color-1); border-top: 1px solid var(--color-1); border-bottom: 1px solid var(--color-1); display: table-cell; padding: 1em;}
+tr td:last-child{border-right: 1px solid var(--color-1);}
+      </pre>
+      </div>
+      <!--Reset Code-->
+
+      <!--Breakpoints-->
+      <div class="block mt-8 mb-4 bd-t-1 bc-c-11" id="breakpoints">
+        <h2 class="c-11 tt-u ls-2 pt-4">Breakpoints</h2>
+      </div>
+      <div class="block c-1 py-4">
+        <p><b>Shark CSS</b> uses media queries and corresponding class prefixes enabling simple to implement responsive layouts.</p>
+      </div>
+      <div class="block c-1 py-4">
+        CSS Code
+      </div>
+      <div class="block b-7 c-3 p-4">
+        <pre>
+/* Small - Prefix .s- */
+@media only screen and (min-width: 768px) {}
+
+/* Medium - Prefix .m- */
+@media only screen and (min-width: 1024px) {}
+
+/* Large - Prefix .-l- */
+@media only screen and (min-width: 1260px) {}
+
+/* Extra Large - Prefix .-xl- */
+@media only screen and (min-width: 1440px) {}
+        </pre>
+      </div>
+      <!--Breakpoints-->
+
+      <!--Blocks-->
+      <div class="block mt-8 mb-4 bd-t-1 bc-c-11" id="blocks">
+        <h2 class="c-11 tt-u ls-2 pt-4">Blocks</h2>
+      </div>
+      <div class="block c-1 py-4">
+        CSS Code
+      </div>
+      <div class="block b-7 c-3 p-4">
+        <pre>
+/* BLOCKS */
+.block{display: block;}
+.block::after{content: ''; display: block; clear: both;}
+.inline{display: inline-block;}
+        </pre>
+      </div>
+      <!--Blocks-->
+
+      <!--Grids-->
+      <div class="block mt-8 mb-4 bd-t-1 bc-c-11" id="grids">
+        <h2 class="c-11 tt-u ls-2 pt-4">Grids</h2>
+      </div>
+      <div class="block c-1 py-4">
+        CSS Code
+      </div>
+      <div class="block b-7 c-3 p-4">
+        <pre>
+.grid {display: grid; list-style-type: none; margin: 0; padding: 0;}
+.grid-1{grid-template-columns: 1fr;}
+.grid-2{grid-template-rows: 1fr 1fr; grid-template-columns: 1fr; grid-template-areas: "col-1" "col-2";}
+.grid-3{grid-template-columns: 1fr 1fr 1fr; grid-template-columns: 1fr; grid-template-areas: "col-1" "col-2" "col-3";}
+.grid-4{grid-template-columns: 1fr 1fr 1fr 1fr; grid-template-columns: 1fr; grid-template-areas: "col-1" "col-2" "col-3" "col-4";}
+.grid-5{grid-template-columns: 1fr 1fr 1fr 1fr 1fr; grid-template-columns: 1fr; grid-template-areas: "col-1" "col-2" "col-3" "col-4" "col-5";}
+.grid-6{grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; grid-template-columns: 1fr; grid-template-areas: "col-1" "col-2" "col-3" "col-4" "col-5" "col-6";}
+        </pre>
+      </div>
+      <!--Grids-->
+
+      <!--Grid Widths-->
+      <div class="block mt-8 mb-4 bd-t-1 bc-c-11" id="column-widths">
+        <h2 class="c-11 tt-u ls-2 pt-4">Column Widths</h2>
+      </div>
+      <div class="block c-1 py-4">
+        CSS Code
+      </div>
+      <div class="block b-7 c-3 p-4">
+        <pre>
+/* VARIABLE COLUMN WIDTHS + &quot;.col-w-#&quot;*/
+.grid-2.col-w-1{grid-template-rows: 1fr 1fr; grid-template-columns: 1fr; grid-template-areas: &quot;col-1&quot; &quot;col-2&quot;;}
+.grid-2.col-w-2{grid-template-rows: 1fr; grid-template-columns: 1.3fr 0.7fr; grid-template-areas: &quot;col-1 col-2&quot;;}
+.grid-2.col-w-3{grid-template-rows: 1fr; grid-template-columns: 0.5fr 1.5fr; grid-template-areas: &quot;col-1 col-2&quot;;}
+
+.grid-3.col-w-1{grid-template-rows: 1fr 1fr 1fr; grid-template-columns: 1fr; grid-template-areas: &quot;col-1&quot; &quot;col-2&quot; &quot;col-3&quot;;}
+.grid-3.col-w-2{grid-template-rows: 1fr; grid-template-columns: 0.7fr 1.6fr 0.7fr; grid-template-areas: &quot;col-1 col-2 col-3&quot;;}
+.grid-3.col-w-3{grid-template-rows: 1fr; grid-template-columns: 0.5fr 2fr 0.5fr; grid-template-areas: &quot;col-1 col-2 col-3&quot;;}
+.grid-3.col-w-4{grid-template-rows: 1fr; grid-template-columns: 0.3fr 2.4fr 0.3fr; grid-template-areas: &quot;col-1 col-2 col-3&quot;;}
+
+.grid-4.col-w-1{grid-template-rows: 1fr 1fr 1fr 1fr; grid-template-columns: 1fr; grid-template-areas: &quot;col-1&quot; &quot;col-2&quot; &quot;col-3&quot; &quot;col-4&quot;;}
+.grid-4.col-w-2{grid-template-rows: 1fr; grid-template-columns: 0.5fr 1.5fr 1.5fr 0.5fr; grid-template-areas: &quot;col-1 col-2 col-3 col-4&quot;;}
+.grid-4.col-w-3{grid-template-rows: 1fr; grid-template-columns: 0.25fr 1.75fr 1.75fr 0.25fr; grid-template-areas: &quot;col-1 col-2 col-3 col-4&quot;;}
+.grid-4.col-w-4{grid-template-rows: 1fr; grid-template-columns: 1.5fr 0.5fr 1.5fr 0.5fr; grid-template-areas: &quot;col-1 col-2 col-3 col-4&quot;;}
+.grid-4.col-w-5{grid-template-rows: 1fr; grid-template-columns: 1.75fr 0.25fr 0.25fr 1.75fr; grid-template-areas: &quot;col-1 col-2 col-3 col-4&quot;;}
+
+.grid-5.col-w-1{grid-template-rows: 1fr 1fr 1fr 1fr 1fr; grid-template-columns: 1fr; grid-template-areas: &quot;col-1&quot; &quot;col-2&quot; &quot;col-3&quot; &quot;col-4&quot; &quot;col-5&quot;;}
+.grid-5.col-w-2{grid-template-rows: 1fr; grid-template-columns: 0.5fr 1fr 2fr 1fr 0.5fr; grid-template-areas: &quot;col-1 col-2 col-3 col-4 col-5&quot;;}
+.grid-5.col-w-3{grid-template-rows: 1fr; grid-template-columns: 1fr 0.5fr 2fr 0.5fr 1fr; grid-template-areas: &quot;col-1 col-2 col-3 col-4 col-5&quot;;}
+
+.grid-6.col-w-1{grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; grid-template-columns: 1fr; grid-template-areas: &quot;col-1&quot; &quot;col-2&quot; &quot;col-3&quot; &quot;col-4&quot; &quot;col-5&quot; &quot;col-6&quot;;}
+.grid-6.col-w-2{grid-template-columns: 0.25fr 0.75fr 2fr 2fr 0.75fr 0.25fr; grid-template-areas: &quot;col-1 col-2 col-3 col-4 col-5 col-6&quot;;}
+.grid-6.col-w-3{grid-template-columns: 0.5fr 1fr 1.5fr 1.5fr 1fr 0.5fr; grid-template-areas: &quot;col-1 col-2 col-3 col-4 col-5 col-6&quot;;}
+.grid-6.col-w-4{grid-template-columns: 02.5fr 1fr 1.75fr 1.75fr 1fr 0.25fr; grid-template-areas: &quot;col-1 col-2 col-3 col-4 col-5 col-6&quot;;}
+        </pre>
+      </div>
+      <!--Grid Widths-->
+
+      <!--Grid Breakpoints-->
+      <div class="block mt-8 mb-4 bd-t-1 bc-c-11" id="column-width-breakpoints">
+        <h2 class="c-11 tt-u ls-2 pt-4">Column Width Breakpoints</h2>
+      </div>
+      <div class="block c-1 py-4">
+        <p><b>Shark CSS</b> uses class prefixes on the columns to set column sizes at differing breakpoints.</p>
+      </div>
+      <div class="block c-1 py-4">
+        CSS Code (Prefix - .s-col, .m-col, .l-col, .xl-col)
+      </div>
+      <div class="block b-7 c-3 p-4">
+        <pre>
+.grid-2.s-col-w-1{grid-template-rows: 1fr 1fr; grid-template-columns: 1fr; grid-template-areas: "col-1" "col-2";}
+        </pre>
+      </div>
+      <!--Grid Breakpoints-->
+
+      <!--Grid Gap-->
+      <div class="block mt-8 mb-4 bd-t-1 bc-c-11" id="grid-gap">
+        <h2 class="c-11 tt-u ls-2 pt-4">Grid Gap</h2>
+      </div>
+      <div class="block c-1 py-4">
+        CSS Code (Prefix - .s-gg-1, .m-gg-1, .l-gg-1, .xl-gg-1 etc)
+      </div>
+      <div class="block b-7 c-3 p-4">
+        <pre>
+/* GRID GAP */
+.gg-1{grid-gap: 0.25em;}
+.gg-2{grid-gap: 0.5em;}
+.gg-3{grid-gap: 0.75em;}
+.gg-4{grid-gap: 1em;}
+.gg-5{grid-gap: 1.25em;}
+.gg-6{grid-gap: 1.5em;}
+.gg-7{grid-gap: 1.75em;}
+.gg-8{grid-gap: 2em;}
+.gg-9{grid-gap: 3em;}
+.gg-10{grid-gap: 4em;}
+        </pre>
+      </div>
+      <!--Grid Gap-->
+
+      <!--Grid Order-->
+      <div class="block mt-8 mb-4 bd-t-1 bc-c-11" id="grid-order">
+        <h2 class="c-11 tt-u ls-2 pt-4">Grid Order</h2>
+      </div>
+      <div class="block c-1 py-4">
+       To reorder a grids columns simply assign breakpoint prefixes and re-number the column
+      </div>
+      <div class="block c-1 py-4">
+        CSS Code 
+      </div>
+      <div class="block b-7 c-3 p-4">
+        <pre>
+/* VARIABLE GRID AREAS */
+.col-1{grid-area: col-1;}
+.col-2{grid-area: col-2;}
+.col-3{grid-area: col-3;}
+.col-4{grid-area: col-4;}
+.col-5{grid-area: col-5;}
+.col-6{grid-area: col-6;}
+
+/* EXAMPLE - XL REVERSED */
+.xl-col-1{grid-area: col-6;}
+.xl-col-2{grid-area: col-5;}
+.xl-col-3{grid-area: col-4;}
+.xl-col-4{grid-area: col-3;}
+.xl-col-5{grid-area: col-2;}
+.xl-col-6{grid-area: col-1;}
+        </pre>
+      </div>
+      <!--Grid Order-->
+
+      <!--Colors-->
+      <div class="block mt-8 mb-4 bd-t-1 bc-c-11" id="color-palette">
+        <h2 class="c-11 tt-u ls-2 pt-4">Colors Palette</h2>
+      </div>
+      <div class="block c-1 py-4">
+        CSS Code
+      </div>
+      <div class="block b-7 c-3 p-4">
+        <pre>
+/* COLOR VARS */
+:root {
+  --color-1: #111;
+  --color-2: #222;
+  --color-3: #333;
+  --color-4: #444;
+  --color-5: #666;
+  --color-6: #999;
+  --color-7: #ccc;
+  --color-8: #e1e1e1;
+  --color-9: #fafafa;
+  --color-10: #fff;
+  /* extension classes - .--color-11, etc... */
+  --color-11: #406eab;
+}
+        </pre>
+      </div>
+      <!--Colors-->
+
+      <!--Colors-->
+      <div class="block mt-8 mb-4 bd-t-1 bc-c-11" id="colors">
+        <h2 class="c-11 tt-u ls-2 pt-4">Colors</h2>
+      </div>
+      <div class="block c-1 py-4">
+        CSS Code (Prefix - .s-c-1, .m-c-1, .l-c-1, .xl-c-1)
+      </div>
+      <div class="block b-7 c-3 p-4">
+        <pre>
+/* COLORS + HOVER COLORS + BORDER COLORS*/
+.c-1, .ch-1:hover{color: var(--color-1);}
+.c-2, .ch-2:hover{color: var(--color-2);}
+.c-3, .ch-3:hover{color: var(--color-3);}
+.c-4, .ch-4:hover{color: var(--color-4);}
+.c-5, .ch-5:hover{color: var(--color-5);}
+.c-6, .ch-6:hover{color: var(--color-6);}
+.c-7, .ch-7:hover{color: var(--color-7);}
+.c-8, .ch-8:hover{color: var(--color-8);}
+.c-9, .ch-9:hover{color: var(--color-9);}
+.c-10, .ch-10:hover{color: var(--color-10);}
+/* extension classes */
+.c-11, .ch-11:hover{color: var(--color-11);}
+        </pre>
+      </div>
+      <!--Colors-->
+
+      <!--Background-->
+      <div class="block mt-8 mb-4 bd-t-1 bc-c-11" id="background">
+        <h2 class="c-11 tt-u ls-2 pt-4">Background</h2>
+      </div>
+      <div class="block c-1 py-4">
+        CSS Code (Prefix - .s-b-1, .m-b-1, .l-b-1, .xl-b-1)
+      </div>
+      <div class="block b-7 c-3 p-4">
+        <pre>
+/* BACKGROUND COLORS */
+.b-1{background:  var(--color-1);}
+.b-2{background:  var(--color-2);}
+.b-3{background:  var(--color-3);}
+.b-4{background:  var(--color-4);}
+.b-5{background:  var(--color-5);}
+.b-6{background:  var(--color-6);}
+.b-7{background:  var(--color-7);}
+.b-8{background:  var(--color-8);}
+.b-9{background:  var(--color-9);}
+.b-10{background: var(--color-10);}
+/* extension classes */
+.b-11{background: var(--color-11);}
+        </pre>
+      </div>
+      <!--Background-->
+
+      <!--Background Size-->
+      <div class="block mt-8 mb-4 bd-t-1 bc-c-11" id="background-size">
+        <h2 class="c-11 tt-u ls-2 pt-4">Background Size</h2>
+      </div>
+      <div class="block c-1 py-4">
+        CSS Code
+      </div>
+      <div class="block b-7 c-3 p-4">
+        <pre>
+/* BACKGROUND SIZE */
+.bs-1{background-size: cover;}
+.bs-2{background-size: contain;}
+.bs-3{background-size: 100% auto;}
+.bs-4{background-size: auto 100%;}
+        </pre>
+      </div>
+      <!--Background Size-->
+
+      <!--Background Position-->
+      <div class="block mt-8 mb-4 bd-t-1 bc-c-11" id="background-position">
+        <h2 class="c-11 tt-u ls-2 pt-4">Background Position</h2>
+      </div>
+      <div class="block c-1 py-4">
+        CSS Code
+      </div>
+      <div class="block b-7 c-3 p-4">
+        <pre>
+/* BACKGROUND POSITION */
+.bp-b{background-position: bottom;}
+.bp-c{background-position: center;}
+.bp-l{background-position: left;}
+.bp-lb{background-position: left bottom;}
+.bp-lt{background-position: left top;}
+.bp-r{background-position: right;}
+.bp-rb{background-position: right bottom;}
+.bp-rt{background-position: right top;}
+.bp-t{background-position: top;}
+        </pre>
+      </div>
+      <!--Background Position-->
+
+      <!--Background Attachment-->
+      <div class="block mt-8 mb-4 bd-t-1 bc-c-11" id="background-attachment">
+        <h2 class="c-11 tt-u ls-2 pt-4">Background Attachment</h2>
+      </div>
+      <div class="block c-1 py-4">
+        CSS Code
+      </div>
+      <div class="block b-7 c-3 p-4">
+        <pre>
+/* BACKGROUND ATTACHMENT */
+.ba-f{background-attachment: fixed;}
+.ba-i{background-attachment: inherit;}
+        </pre>
+      </div>
+      <!--Background Attachment-->
+
+      <!--Border-->
+      <div class="block mt-8 mb-4 bd-t-1 bc-c-11" id="border">
+        <h2 class="c-11 tt-u ls-2 pt-4">Border</h2>
+      </div>
+      <div class="block c-1 pt-4">
+        <p><b>Shark CSS</b> purposely has minimal border classes, if you need more simply expand on the example classes.</p>
+      </div>
+      <div class="block c-1 py-4">
+        CSS Code (Prefix - .s-bd-t-1, .m-bd-t-1, .l-bd-t-1, .xl-bd-t-1)
+      </div>
+      <div class="block b-7 c-3 p-4">
+        <pre>
+/* BORDERS */
+.bd-t-1{border-top: 1px solid;}
+.bd-r-1{border-right: 1px solid;}
+.bd-b-1{border-bottom: 1px solid;}
+.bd-l-1{border-left: 1px solid;}
+
+/* extension classes */
+.bd-t-2{border-top: 2px solid;}
+.bd-r-2{border-right: 2px solid;}
+.bd-b-2{border-bottom: 2px solid;}
+.bd-l-2{border-left: 2px solid;}
+        </pre>
+      </div>
+      <!--Border-->
+
+      <!--Border Colors-->
+      <div class="block mt-8 mb-4 bd-t-1 bc-c-11" id="border-color">
+        <h2 class="c-11 tt-u ls-2 pt-4">Border Color</h2>
+      </div>
+      <div class="block c-1 py-4">
+        CSS Code (Prefix - .s-bc-c-1, .m-bc-c-1, .l-bc-c-1, .xl-bc-c-1)
+      </div>
+      <div class="block b-7 c-3 p-4">
+        <pre>
+/* BORDER COLORS */
+.bc-c-1{border-color: var(--color-1);}
+.bc-c-2{border-color: var(--color-2);}
+.bc-c-3{border-color: var(--color-3);}
+.bc-c-4{border-color: var(--color-4);}
+.bc-c-5{border-color: var(--color-5);}
+.bc-c-6{border-color: var(--color-6);}
+.bc-c-7{border-color: var(--color-7);}
+.bc-c-8{border-color: var(--color-8);}
+.bc-c-9{border-color: var(--color-9);}
+.bc-c-10{border-color: var(--color-10);}
+
+/* extension classes */
+.bc-c-11{border-color: var(--color-11);}
+        </pre>
+      </div>
+      <!--Border Colors-->
+
+      <!--Fill-->
+      <div class="block mt-8 mb-4 bd-t-1 bc-c-11" id="fill">
+        <h2 class="c-11 tt-u ls-2 pt-4">Flex</h2>
+      </div>
+      <div class="block c-1 py-4">
+        CSS Code (Prefix - .s-fill, .m-fill, .l-fill, .xl-fill)
+      </div>
+      <div class="block b-7 c-3 p-4">
+        <pre>
+/* FILL */
+.fill{height: 100%; width: 100%;}
+.fill-y{height: 100%;}
+.fill-x{width: 100%;}
+.fill-vh{height: 100vh;}
+.fill-vw{width: 100vw;}
+.fill-mvh{min-height: 100vh;}
+.fill-mvw{min-width: 100vw;}
+        </pre>
+      </div>
+      <!--Fill-->
+
+      <!--Flex-->
+      <div class="block mt-8 mb-4 bd-t-1 bc-c-11" id="flex">
+        <h2 class="c-11 tt-u ls-2 pt-4">Flex</h2>
+      </div>
+      <div class="block c-1 py-4">
+        CSS Code (Prefix - .s-flex, .m-flex, .l-flex, .xl-flex)
+      </div>
+      <div class="block b-7 c-3 p-4">
+        <pre>
+.flex{text-align: center; display: flex; align-items: center; justify-content: center;}
+.flex-l{display: flex; align-items: center; justify-content: flex-start;}
+.flex-r{display: flex; align-items: center; justify-content: flex-end;}
+.flex-br{display: flex; align-items: flex-end; justify-content: flex-end;}
+        </pre>
+      </div>
+      <!--Flex-->
+
+      <!--Float-->
+      <div class="block mt-8 mb-4 bd-t-1 bc-c-11" id="float">
+        <h2 class="c-11 tt-u ls-2 pt-4">Float</h2>
+      </div>
+      <div class="block c-1 py-4">
+        CSS Code
+      </div>
+      <div class="block b-7 c-3 p-4">
+        <pre>
+/* FLOAT */
+.left{display: block; float: left;}
+.right{display: block; float: right;}
+.center{margin: 0 auto;}
+        </pre>
+      </div>
+      <!--Float-->
+
+      <!--Margin-->
+      <div class="block mt-8 mb-4 bd-t-1 bc-c-11" id="margin">
+        <h2 class="c-11 tt-u ls-2 pt-4">Margin</h2>
+      </div>
+      <div class="block c-1 py-4">
+        CSS Code (Prefix - .s-m-1, .m-m-1, .l-m-1, .xl-m-1)
+      </div>
+      <div class="block b-7 c-3 p-4">
+        <pre>
+/* MARGIN */
+.m-0 - .m-10{margin: 0;}
+
+/* MARGIN X */
+.mx-1 - .mx-10{margin-left: 0.25em; margin-right: 0.25em;}
+
+/* MARGIN Y */
+.my-1 - .my-10{margin-bottom: 0.25em; margin-top: 0.25em;}
+
+/* MARGIN TOP */
+.mt-1 - .mt-10{margin-top: 0.25em;}
+
+/* MARGIN RIGHT */
+.mr-1 - .mr-10{margin-right: 0.25em;}
+
+/* MARGIN BOTTOM */
+.mb-1 - .mb-10{margin-bottom: 0.25em;}
+
+/* MARGIN LEFT */
+.ml-1 - .ml-10{margin-left: 0.25em;}
+        </pre>
+      </div>
+      <!--Margin-->
+
+      <!--Padding-->
+      <div class="block mt-8 mb-4 bd-t-1 bc-c-11" id="padding">
+        <h2 class="c-11 tt-u ls-2 pt-4">Padding</h2>
+      </div>
+      <div class="block c-1 py-4">
+        CSS Code (Prefix - .s-p-1, .m-p-1, .l-p-1, .xl-p-1)
+      </div>
+      <div class="block b-7 c-3 p-4">
+        <pre>
+/* PADDING */
+.p-0 - .p-10{padding: 0;}
+
+/* PADDING X */
+.px-1 - .px-10{padding-left: 0.25em; padding-right: 0.25em;}
+
+/* PADDING Y */
+.py-1 - .py-10{padding-bottom: 0.25em; padding-top: 0.25em;}
+
+/* PADDING TOP */
+.pt-1 - .pt-10{padding-top: 0.25em;}
+
+/* PADDING RIGHT */
+.pr-1 - .pr-10{padding-right: 0.25em;}
+
+/* PADDING BOTTOM */
+.pb-1 - .pb-10{padding-bottom: 0.25em;}
+
+/* PADDING LEFT */
+.pl-1 - .pl-10{padding-left: 0.25em;}
+        </pre>
+      </div>
+      <!--Padding-->
+
+      <!--Position-->
+      <div class="block mt-8 mb-4 bd-t-1 bc-c-11" id="position">
+        <h2 class="c-11 tt-u ls-2 pt-4">Position</h2>
+      </div>
+      <div class="block c-1 py-4">
+        CSS Code (Prefix - .s-pos-a, .m-pos-a, .l-pos-a, .xl-pos-a)
+      </div>
+      <div class="block b-7 c-3 p-4">
+        <pre>
+/* POSITION */
+.pos-a{position: absolute;}
+.pos-f{position: fixed;}
+.pos-i{position: inherit;}
+.pos-r{position: relative;}
+        </pre>
+      </div>
+      <!--Position-->
+
+      <!--Font Size-->
+      <div class="block mt-8 mb-4 bd-t-1 bc-c-11" id="font-size">
+        <h2 class="c-11 tt-u ls-2 pt-4">Font Size</h2>
+      </div>
+      <div class="block c-1 py-4">
+        CSS Code (Prefix - .s-fs-1, .m-fs-1, .l-fs-1, .xl-fs-1)
+      </div>
+      <div class="block b-7 c-3 p-4">
+        <pre>
+/* FONT SIZE */
+.fs-1{font-size: 0.7em;}
+.fs-2{font-size: 0.8em;}
+.fs-3{font-size: 0.9em;}
+.fs-4{font-size: 1em;}
+.fs-5{font-size: 1em;}
+.fs-6{font-size: 1.2em;}
+.fs-7{font-size: 1.4em;}
+.fs-8{font-size: 1.6em;}
+.fs-9{font-size: 2em;}
+.fs-10{font-size: 2.4em;}
+.fs-11{font-size: 3em;}
+.fs-12{font-size: 3.4em;}
+.fs-13{font-size: 4em;}
+.fs-14{font-size: 5em;}
+.fs-15{font-size: 6em;}
+        </pre>
+      </div>
+      <!--Font Size-->
+
+      <!--Font Weight-->
+      <div class="block mt-8 mb-4 bd-t-1 bc-c-11" id="font-weight">
+        <h2 class="c-11 tt-u ls-2 pt-4">Font Weight</h2>
+      </div>
+      <div class="block c-1 py-4">
+        CSS Code (Prefix - .s-fw-1, .m-fw-1, .l-fw-1, .xl-fw-1)
+      </div>
+      <div class="block b-7 c-3 p-4">
+        <pre>
+/* FONT WEIGHTS */
+.fw-1{font-weight: 100;}
+.fw-2{font-weight: 200;}
+.fw-3{font-weight: 300;}
+.fw-4{font-weight: 400;}
+.fw-5{font-weight: 500;}
+.fw-6{font-weight: 600;}
+.fw-7{font-weight: 700;}
+.fw-8{font-weight: 800;}
+        </pre>
+      </div>
+      <!--Font Weight-->
+
+      <!--Font Decoration-->
+      <div class="block mt-8 mb-4 bd-t-1 bc-c-11" id="font-decoration">
+        <h2 class="c-11 tt-u ls-2 pt-4">Font Decoration</h2>
+      </div>
+      <div class="block c-1 py-4">
+        CSS Code (Prefix - .s-fd-1, .m-fd-1, .l-fd-1, .xl-fd-1)
+      </div>
+      <div class="block b-7 c-3 p-4">
+        <pre>
+/* FONT DECORATION */
+.fd-n{text-decoration: none;}
+.fd-u{text-decoration: underline;}
+        </pre>
+      </div>
+      <!--Font Decoration-->
+
+      <!--Text Align-->
+      <div class="block mt-8 mb-4 bd-t-1 bc-c-11" id="text-align">
+        <h2 class="c-11 tt-u ls-2 pt-4">Text Align</h2>
+      </div>
+      <div class="block c-1 py-4">
+        CSS Code (Prefix - .s-ta-1, .m-ta-1, .l-ta-1, .xl-ta-1)
+      </div>
+      <div class="block b-7 c-3 p-4">
+        <pre>
+/* TEXT ALIGN */
+.ta-l{text-align: left;}
+.ta-c{text-align: center;}
+.ta-r{text-align: right;}
+        </pre>
+      </div>
+      <!--Text Align-->
+
+      <!--Text Transform-->
+      <div class="block mt-8 mb-4 bd-t-1 bc-c-11" id="text-transform">
+        <h2 class="c-11 tt-u ls-2 pt-4">Text Transform</h2>
+      </div>
+      <div class="block c-1 py-4">
+        CSS Code (Prefix - .s-tt-u, .m-tt-u, .l-tt-u, .xl-tt-u)
+      </div>
+      <div class="block b-7 c-3 p-4">
+        <pre>
+/* TEXT TRANSFORM */
+.tt-l{text-transform: lowercase;}
+.tt-u{text-transform: uppercase;}
+.tt-c{text-transform: capitalize;}
+        </pre>
+      </div>
+      <!--Text Transform-->
+
+      <!--Letter Spacing-->
+      <div class="block mt-8 mb-4 bd-t-1 bc-c-11" id="letter-spacing">
+        <h2 class="c-11 tt-u ls-2 pt-4">Letter Spacing</h2>
+      </div>
+      <div class="block c-1 py-4">
+        CSS Code (Prefix - .s-ls-1, .m-ls-1, .l-ls-1, .xl-ls-1)
+      </div>
+      <div class="block b-7 c-3 p-4">
+        <pre>
+/* LETTER SPACING */
+.ls-1{letter-spacing: 1px;}
+.ls-2{letter-spacing: 2px;}
+.ls-3{letter-spacing: 3px;}
+.ls-4{letter-spacing: 4px;}
+.ls-5{letter-spacing: 5px;}
+        </pre>
+      </div>
+      <!--Letter Spacing-->
+
+      <!--Tables-->
+      <div class="block mt-8 mb-4 bd-t-1 bc-c-11" id="tables">
+        <h2 class="c-11 tt-u ls-2 pt-4">Tables</h2>
+      </div>
+      <div class="block c-1 py-4">
+        CSS Code (Prefix - .s-tbl-1, .m-tbl-1, .l-tbl-1, .xl-tbl-1)
+      </div>
+      <div class="block b-7 c-3 p-4">
+        <pre>
+/* TABLES */
+.tbl-1 tr td{background: var(--color-8);border-left: 1px solid var(--color-6); border-top: 1px solid var(--color-6); border-bottom: 1px solid var(--color-6);}
+.tbl-1 tr td:nth-child(even){background: var(--color-9);}
+.tbl-1 tr td:last-child{border-right: 1px solid var(--color-6);}
+.tbl-1 tr:nth-child(even) td:nth-child(odd){background: var(--color-9);}
+.tbl-1 tr:nth-child(even) td:nth-child(even){background: var(--color-8);}
+        </pre>
+      </div>
+      <!--Tables-->
+
+      <!--Transitions-->
+      <div class="block mt-8 mb-4 bd-t-1 bc-c-11" id="transitions">
+        <h2 class="c-11 tt-u ls-2 pt-4">Transitions</h2>
+      </div>
+      <div class="block c-1 py-4">
+        CSS Code
+      </div>
+      <div class="block b-7 c-3 p-4">
+        <pre>
+/* TRANSITION */
+.tr-1{transition: all ease 0.3s;}
+.tr-2{transition: all ease 0.6s;}
+.tr-3{transition: all ease 1s;}
+
+.tr-c-1{transition: color ease 0.3s;}
+.tr-c-2{transition: color ease 0.6s;}
+.tr-c-3{transition: color ease 1s;}
+
+.tr-o-1{transition: opacity ease 0.3s;}
+.tr-o-2{transition: opacity ease 0.6s;}
+.tr-o-3{transition: opacity ease 1s;}
+        </pre>
+      </div>
+      <!--Transitions-->
+
+    </div>
+</div>
+<!-- partial -->
+  <script src='https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700&amp;display=swap'></script>
+</body>
+</html>
