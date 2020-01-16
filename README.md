@@ -7,7 +7,7 @@ Weighing in at under 20k uncompressed and under 3k GZipped, Shark CSS is without
 
 | Framework | Version | Original - kb | GZipped - kb |
 | ------------- | ------------- | ------------- | ------------- |
-| Shark CSS | V 1.0.0 | 17.8kb | 2.7kb |
+| Shark CSS | V 1.0.0 | 62.5kb | 2.7kb |
 | ------------- | ------------- | ------------- | ------------- |
 | Foundation | V -.-.- | 154.1kb | 15.9kb |
 | ------------- | ------------- | ------------- | ------------- |
