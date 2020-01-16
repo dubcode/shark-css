@@ -4,10 +4,15 @@ Shark CSS is a highly opinionated predefined set of CSS classes, Resets and Comm
 Weighing in at under 20k uncompressed and under 3k GZipped, Shark CSS is without a doubt faster, lighter and more efficient when compared to most other CSS Frameworks. Shark CSS can easily be used as a full custom framework tailored to suit your project or brand.
 
 | Framework | Version | Original - kb | GZipped - kb |
+| ------------- | ------------- | ------------- | ------------- |
 | Shark CSS | V 1.0.0 | 17.8kb | 2.7kb |
+| ------------- | ------------- | ------------- | ------------- |
 | Foundation | V -.-.- | 154.1kb | 15.9kb |
+| ------------- | ------------- | ------------- | ------------- |
 | Materialize | V -.-.- | 175.0kb | 21.1kb |
+| ------------- | ------------- | ------------- | ------------- |
 |Bootstrap | V 4.0.0 | 187.8kb | 22.7kb |
+| ------------- | ------------- | ------------- | ------------- |
 | Tailwind | V -.-.- | 783.5kb | 78.0kb |
 
 **SETUP**
